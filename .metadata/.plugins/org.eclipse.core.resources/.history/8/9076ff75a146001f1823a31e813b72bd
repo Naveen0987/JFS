@@ -1,0 +1,26 @@
+package oops;
+
+public class thread_communication {
+
+	public static void main(String[] args) {
+		surya s=new surya();
+		s.start();
+		
+		System.out.println(s.num);
+
+	}
+
+}
+class surya extends  Thread{
+	int num;
+	@Override
+	public void run() {
+		
+	for(int i=1;i<5;i++) {
+		System.out.println(num=num+i);
+
+	}
+	//System.out.println(num);
+	}
+	
+}

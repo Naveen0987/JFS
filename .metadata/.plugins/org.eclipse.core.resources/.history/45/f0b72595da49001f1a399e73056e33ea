@@ -1,0 +1,21 @@
+package oops;
+
+public class Wrapper {
+
+	public static void main(String[] args) {
+		int a=20;
+		double b=89;
+		float c=88.1f;
+		String d="7777";
+		
+		
+		Integer in=a;
+		Integer s=Integer.valueOf(d);
+		int ss=s;
+		System.out.println(s);
+		System.out.println(in);
+		System.out.println(ss);
+
+	}
+
+}

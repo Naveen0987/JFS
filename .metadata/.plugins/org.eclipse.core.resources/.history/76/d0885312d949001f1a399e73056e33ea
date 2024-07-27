@@ -1,0 +1,14 @@
+package oops;
+
+public class Wrapper {
+
+	public static void main(String[] args) {
+		int a=20;
+		double b=89;
+		float c=88.1f;
+		Integer in=a;
+		System.out.println(in);
+
+	}
+
+}

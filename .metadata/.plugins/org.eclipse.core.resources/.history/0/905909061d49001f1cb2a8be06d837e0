@@ -1,0 +1,21 @@
+
+public class Stringreverse {
+
+	public static void main(String[] args) {
+		String name="Naveen";
+		char [] namearray=name.toCharArray();
+	
+		int  end=namearray.length-1;
+		char [] reverse=new char[namearray.length];
+		
+		for(int i=0;i<reverse.length;i++) {
+			
+reverse[i]=namearray[end];
+end--;
+	
+		}
+		System.out.println(namearray);
+
+	}
+
+}

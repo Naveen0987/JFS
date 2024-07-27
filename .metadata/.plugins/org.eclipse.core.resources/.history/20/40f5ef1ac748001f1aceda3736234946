@@ -1,0 +1,17 @@
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		String name1="Naveen";
+		String name2="Naveen";
+		String name3= new String ("naveen");
+		
+		System.out.println(name1 == name2);
+		System.out.println(name2 == name3);
+		System.out.println(name2.equals(name3));
+		System.out.println(name2.equalsIgnoreCase(name3));
+		
+
+	}
+
+}

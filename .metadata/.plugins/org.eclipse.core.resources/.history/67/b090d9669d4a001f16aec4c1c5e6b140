@@ -1,0 +1,22 @@
+
+//import java.util.LinkedList;
+
+import java.util.ArrayList;
+
+public class listdemo {
+
+	public static void main(String[] args) {
+		ArrayList  arr=new ArrayList ();
+		arr.add("hi");
+		arr.add("orey");
+		arr.add(55);
+		arr.add(88.6f);
+		arr.add(-127);
+		arr.add('h');
+		arr.add(48785455);
+
+
+		System.out.println(arr);
+	}
+
+}

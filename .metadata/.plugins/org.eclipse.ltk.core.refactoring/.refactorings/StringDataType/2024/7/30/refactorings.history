@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void stringoperations()&apos; from &apos;StringDemo.main(...)&apos; to &apos;StringDemo&apos;&#x0A;- Original project: &apos;StringDataType&apos;&#x0A;- Method name: &apos;stringoperations&apos;&#x0A;- Destination type: &apos;StringDemo&apos;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;stringoperations&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{StringDemo.java" name="stringoperations" replace="false" selection="72 746" stamp="1721752627381" version="1.0" visibility="2"/>
+</session>

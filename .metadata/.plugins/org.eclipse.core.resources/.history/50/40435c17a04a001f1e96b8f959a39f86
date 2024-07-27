@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
+public class listdemo {
+
+	public static void main(String[] args) {
+		/*ArrayList  arr=new ArrayList ();
+		arr.add("hi");
+		arr.add(0, "orey");
+		arr.add(55);
+		arr.add(88.6f);
+		arr.add(-127);
+		arr.add('h');
+		arr.add(48785455);
+*/
+
+		//System.out.println(arr);
+		Set a=new HashSet();
+		arr.add("hi");
+		arr.add(0, "orey");
+		arr.add(55);
+		arr.add(88.6f);
+		arr.add(-127);
+		arr.add('h');
+		arr.add(48785455);
+		System.out.println(a);
+		
+	}
+
+}

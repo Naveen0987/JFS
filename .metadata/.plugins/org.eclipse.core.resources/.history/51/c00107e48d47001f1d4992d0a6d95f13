@@ -1,0 +1,35 @@
+import java.util.Arrays;
+
+public class bubblesort {
+
+	public static void main(String[] args) {
+		int[] arr = { 9, 7, 6, 8, 4,5, 3, 2, 1 };
+printing(arr);
+		for (int i = 0; i < arr.length - 1; i++) {
+			
+			for (int n = 0; n < arr.length - 1; n++) {
+				if (arr[n] > arr[n + 1]) {
+					int swap = arr[n];
+					arr[n] = arr[n + 1];
+					arr[n + 1] = swap;
+					
+
+				}
+
+			}
+			System.out.println(Arrays.toString(arr));
+			printing(arr);
+
+		}
+	}
+public static void printing(int [] arr) {
+	for(int j=0;j<arr.length;j++) {
+		System.out.println(arr[j]);
+		
+	}
+
+}
+
+	
+
+}

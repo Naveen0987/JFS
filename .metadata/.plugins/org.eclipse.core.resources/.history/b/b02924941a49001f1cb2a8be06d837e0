@@ -1,0 +1,20 @@
+
+public class Stringreverse {
+
+	public static void main(String[] args) {
+		String name="Naveen";
+		char [] namearray=name.toCharArray();
+		
+		int start =0;
+		int end=namearray.length-1;
+		for(int i=0;i<namearray.length-1;i--) {
+			char temp=namearray[start];
+			namearray[start]=namearray[end];
+			namearray[end]=temp;
+			
+		}
+		
+System.out.println(namearray);
+	}
+
+}

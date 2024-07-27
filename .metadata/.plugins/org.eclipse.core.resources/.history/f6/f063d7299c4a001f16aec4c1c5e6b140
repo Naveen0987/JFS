@@ -1,0 +1,14 @@
+
+import java.util.LinkedList;
+
+public class listdemo {
+
+	public static void main(String[] args) {
+		ArrayList arr=new ArrayList ();
+		arr.add("hi");
+		arr.add("hey");
+		System.out.println(arr);
+		
+	}
+
+}
